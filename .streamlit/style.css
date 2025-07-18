@@ -1,0 +1,12 @@
+/* This targets the container with a border that Streamlit creates */
+[data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+[data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"]:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

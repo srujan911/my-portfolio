@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#3182ce"          # A nice shade of blue
+backgroundColor="#0e1117"        # Dark background
+secondaryBackgroundColor="#262730" # A lighter dark for containers
+textColor="#fafafa"              # White text
+font="sans serif"
