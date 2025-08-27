@@ -41,7 +41,7 @@ with st.container(border=True):
     col1, col2 = st.columns([1, 2])
     with col1:
         # Add your project image here
-        st.image("images/project2_tracker.png", caption="Dashboard of the Cross-Chain Tracker") # Create an 'images' folder
+        st.image("images/project2.png", caption="Dashboard of the Cross-Chain Tracker") # Create an 'images' folder
     with col2:
         st.subheader("Cross-Chain Asset Tracker for Stablecoins")
         st.write(
